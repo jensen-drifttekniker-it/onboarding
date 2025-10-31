@@ -128,7 +128,6 @@ ssh -T git@github.com
 ### ✅ Godkänt sätt att lämna in
 - Acceptera uppgiften via GitHub Classroom-länken från läraren  
 - Arbeta i ditt tilldelade personliga repository som skapas automatiskt  
-- Repository-namnet ska följa mönstret: `nstd_aug_23-programmering-1-dittanvändarnamn`  
 - Använd de förberedda filerna i `assignments/`-mappen
 
 ### ❌ Ej godkänt sätt
@@ -150,7 +149,7 @@ ssh -T git@github.com
 
 ### 2. Klona ditt uppgiftsrepo
 ```bash
-git clone git@github.com:nstd_aug_23/programmering-1-dittanvändarnamn.git
+git clone git@github.com:<organisation>/<repository-namn>.git
 ```
 
 ### 3. Gör ditt arbete
@@ -171,7 +170,7 @@ git push origin main
 - Git konfigurerat med namn och e-post  
 - Uppgift accepterad via Classroom-länken  
 - Arbetar i Classroom-skapat repository  
-- Repository-namnet börjar med `nstd_aug_23-programmering-1-`  
+- Repository-namnet börjar med `<klassnamn>-<kurs>-ditt-<användarnamn>`, exempelvis: `nstd_aug_23-programmering-1-fa1c0nx`
 - Fyller i koden i filerna under `assignments/`  
 - Använder `git add`, `commit` och `push` regelbundet  
 - Ser poäng i GitHub Classroom efter varje push
